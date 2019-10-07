@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="table_style.css">
+
+    <meta charset="utf-8">
+    <title>CSS test page</title>
+
+    <style>
+      input:invalid{
+        border: 2px solid red;
+      }
+      input:valid{
+        border: 2px solid blue;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1 align = "center">Online Market</h1>
+
+    <a href="#">Home</a>
+    <a href="contact.html">Contact</a>
+
+    <br><br>
+
+    <h2>New Product Details</h2>
+
+    <table>
+      <tr>
+        <td rowspan="4">Product</td>
+      </tr>
+      <td>NAME</td>
+      <td>x1</td>
+      <td>x2</td>
+      <td>x3</td>
+
+      <tr>
+        <td>Price</td>
+        <td>r1</td>
+        <td>r2</td>
+        <td>r3</td>
+      </tr>
+
+      <tr>
+        <td>Quantity</td>
+        <td>s1</td>
+        <td>s2</td>
+        <td>s3</td>
+      </tr>
+    </table>
+
+    <br><br>
+
+    <form action="index.html" method="post">
+    <fieldset>
+
+        <div>
+          <label for="date">Choose a date:</label>
+        <input type="date" name="date1" value="" required>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="number">choose number between 1 and 50:</label>
+          <input type="number" name="number" min="1" max = "50" value="" required>
+        </div>
+
+        <br>
+        <br>
+
+        <fieldset>
+          <legend>What is your favourite subject</legend>
+
+          <input type="radio" checked name="subject" id="sub1" value="Maths">
+          <label for="sub1">Maths</label>
+
+          <input type="radio" name="subject" id="sub2" value="Science">
+          <label for="sub2">Science</label>
+
+          <input type="radio" name="subject" id="sub3" value="Biology">
+          <label for="sub3">Biology</label>
+
+        </fieldset><br><br>
+
+        <select name="Study Level">
+          <option selected value="CFS">Foundation</option>
+          <option value="UG">Undergraduate</option>
+          <option value="PG">Postgraduate</option>
+
+        </select><br><br>
+
+        <button type="submit" name="button">Submit</button>
+        <button type="reset" name="button">Reset</button>
+
+    </fieldset>
+</form>
+
+  </body>
+</html>

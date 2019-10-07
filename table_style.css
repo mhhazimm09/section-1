@@ -1,0 +1,24 @@
+h1 {
+  color: #E6E6FA;
+  font-family: "times new roman";
+  background-color: #191970;
+  border: 1px solid black;
+}
+
+h2{
+  border: 3px dashed blue;
+  color: black;
+}
+
+table{
+  letter-spacing: 1px;
+  border-collapse: collapse;
+  border: 3px solid rgba(255, 0, 0, 0.5);
+}
+td, th{
+  border: 3px solid rgba(255, 0, 0, 0.5);
+  padding: 10px 20px;
+}
+tr:nth-child(even) td{
+  background-color: #291699;
+}
